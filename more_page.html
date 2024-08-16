@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Netflix</title>
+        <link rel="stylesheet" href="netflix.css">
+        <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+        <link rel="icon" href="images/netflix_icon.svg">
+    </head>
+    <body>
+        <nav class="navbar">
+            <a href="home_page.html" class="nav_card ">
+                <img src="images/home.svg" alt="">
+                <h6 class="nav_names">home</h6>
+            </a>
+            <a href="search_page.html" class="nav_card ">
+                <img src="images/search.svg" alt="">
+                <h6 class="nav_names">search</h6>
+            </a>
+            <a href="coming_soon_page.html" class="nav_card">
+                <img src="images/coming_soon.svg" alt="">
+                <h6 class="nav_names">coming soon</h6>
+            </a>
+            <a href="download_page.html" class="nav_card">
+                <img src="images/download.svg" alt="">
+                <h6 class="nav_names">download</h6>
+            </a>
+            <a href="more_page.html" class="nav_card active_nav_card">
+                <img src="images/more.svg" alt="">
+                <h6 class="nav_names">more</h6>
+            </a>
+        </nav>
+
+        <main class="morepage">
+
+            <div class="user_cont">
+                <a class="user_profile " href="home_page.html">
+                    <img class="user_profile_img" src="images/user_1.png" alt="">
+                    <h5 class="user_profile_name">Emenalo</h5>
+                </a>
+                <a class="user_profile" href="home_page.html">
+                    <img class="user_profile_img" src="images/user_2.png" alt="">
+                    <h5 class="user_profile_name">Onyeka</h5>
+                </a>
+                <a class="user_profile active" href="home_page.html">
+                    <img class="user_profile_img" src="images/user_3.png" alt="">
+                    <h5 class="user_profile_name">Thelma</h5>
+                </a>
+                <a class="user_profile" href="home_page.html">
+                    <img class="user_profile_img" src="images/user_kids.png" alt="">
+                    <h5 class="user_profile_name">Kids</h5>
+                </a>
+                <a class="user_profile" href="home_page.html">
+                    <div class="user_profile_img">
+                        <img src="images/add_plus_icon.svg" alt="">
+                    </div>
+                    <h5 class="user_profile_name">Add Profile</h5>
+                </a>
+            </div>
+            <a class="profile_cont">
+                <img class="profile_edit_icon" src="images/edit_icon.svg" alt="">
+                <span>Manage Profiles</span>
+            </a>
+
+            <section class="share_box">
+                <div class="share_box_head">
+                    <img src="images/message_icon.svg" alt="">
+                    <h4>Tell friends about Netflix</h4>
+                </div>
+                <p class="share_box_details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quam dui, vivamus
+                    bibendum ut. A morbi mi tortor ut felis accumsan accumsan quis.</p>
+                <a class="terms_conditions" href="#">Terms & Conditions</a>
+                <div class="ref_link_wrap">
+                    <input type="url" name="ref_link" id="referrerLink" placeholder="https://www.instagram.com/smiler_142/" >
+                    <button data-clipboard-target="#referrerLink">Copy Link</button>
+                </div>
+                <div class="share_box_links">
+                    <a class="wa_link">
+                        <img src="images/whatsapp_logo.svg" alt="">
+                    </a>
+                    <a class="fb_link">
+                        <img src="images/fb_logo.svg" alt="">
+                    </a>
+                    <a class="gmail_link">
+                        <img src="images/gmail_logo.svg" alt="">
+                    </a>
+                    <a class="more_links">
+                        <img style="rotate: 90deg;" src="images/threedots.svg" alt="">
+                        <span>More</span>
+                    </a>
+                </div>
+            </section>
+
+            <div class="morepage_cont">
+                
+                <div class="morepage_cont_settings">
+                    <a href="mylist.html">
+                        <span>My List</span>
+                        <img src="images/chevron-right-icon.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <span>app settings</span>
+                        <img src="images/chevron-right-icon.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <span>account</span>
+                        <img src="images/chevron-right-icon.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <span>help</span>
+                        <img src="images/chevron-right-icon.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <span>sign out</span>
+                        <img src="images/chevron-right-icon.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
